@@ -1,2 +1,0 @@
-# VIPPU UI
-
