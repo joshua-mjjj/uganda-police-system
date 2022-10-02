@@ -48,19 +48,19 @@ function ContentOverviewAdmin(props) {
         },
         {
           content:
-            props.overrall_data.battalion_five === undefined ? '' : `${props.overrall_data.battalion_five}`,
+            props.overrall_data.battalion_four === undefined ? '' : `${props.overrall_data.battalion_four}`,
           icon: AccountBalanceIcon_,
           label: 'Battalion Four'
         },
         {
           content:
-            props.overrall_data.battalion_six === undefined ? '' : `${props.overrall_data.battalion_six}`,
+            props.overrall_data.battalion_five === undefined ? '' : `${props.overrall_data.battalion_five}`,
           icon: AccountBalanceIcon_,
           label: 'Battalion Five'
         },
         {
           content:
-            props.overrall_data.battalion_four === undefined ? '' : `${props.overrall_data.battalion_four}`,
+            props.overrall_data.battalion_six === undefined ? '' : `${props.overrall_data.battalion_six}`,
           icon: AccountBalanceIcon_,
           label: 'Battalion Six'
         },
